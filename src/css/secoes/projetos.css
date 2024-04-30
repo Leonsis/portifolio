@@ -15,13 +15,14 @@
 .projetos .container-projetos .projeto {
     border-radius: 5px;
     border: 1px solid var(--cor-primaria);
+    text-align: left;
 }
 
 .projetos .container-projetos .projeto .informacoes {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     height: 300px;
-    padding: 5px;
+    padding: 10px;
 }
 
 
@@ -34,6 +35,7 @@
     font-weight: 500;
     margin-top: 10px;
     font-size: 1.5rem;
+    text-align: justify;
 }
 
 .projetos .container-projetos .projeto h3 {
