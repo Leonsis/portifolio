@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio | Caio Leonni</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+  
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <div class="logo"><!-- INICIO logo -->
+            <h1><span>&lt;</span>Portfólio<span>/&gt;</span></h1>
+          </div><!-- /FIM logo -->
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Skills</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <h1>Bem vindo ao portfólio de <span>Caio Leonni!</h1>
+          <h2>Desenvolvedor Frontend</h2>
+
+          <div class="redes-sociais">
+            <a href="#" ><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" ><i class="fab fa-whatsapp"></i></a>
+            <a href="#" ><i class="fab fa-github"></i></a>
+            <a href="#" ><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box">
+            <img src="src/imagens/foto-perfil.png" alt="foto do perfil do Caio Leonni" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box">
+            <img src="src/imagens/foto-perfil.png" alt="foto sobre mim" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Caio Leonnie sou um desenvolvedor frontend em
+              formação!</strong>
+              Gosto MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
+          </p>
+          <p>
+            Estudante de Analise e Desenvolvimento de Sistemas, com conhecimentos em JavaScript, React, Node.js, Angular e entre outros. Querendo uma oportunidade de iniciar uma carreira oficialmente e desenvolve-la junto com meus conhecimentos nessa area incrivel da TI. Sempre disposto a aprender mais.
+            Estou sempre me desafiando coim novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 😁
+          </p>
+          <p>
+            Ah, gosto de jogos, filmes, séries, animes e outras nerdices. 💜
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="/src/arquivos/cv.pdf" class="botao ">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Skils</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+
+        <div class="informacoes javascript">
+          <div class="bloco">
+            <div class="logo">
+              <i class="devicon devicon-javascript-plain" id="javascript"></i>
+            </div>
+            <h3>JavaScript</h3>
+          </div>
+        </div>
+        
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <span></span>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+        </div>
+
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+          <h3>Git</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">        
+          <a href="https://github.com">
+            <div class="informacoes">
+              <h6 class="card-subtitle">HTML5 | CSS | Bootstrap</h6>
+              <p class="card-text">
+                  Modelo de site de faculdade, onde possui 3 paginas, sendo elas, home, sobre e contato.
+              </p>
+            </div>
+            <h3>UNES</h3>
+          </a>
+        </div>
+
+        <div class="projeto">        
+          <a href="https://github.com">
+            <div class="informacoes">
+              <h6 class="card-subtitle">HTML5 | CSS | Bootstrap</h6>
+              <p class="card-text">
+                  Modelo de site de faculdade, onde possui 3 paginas, sendo elas, home, sobre e contato.
+              </p>
+            </div>
+            <h3>UNES</h3>
+          </a>
+        </div>
+
+        <div class="projeto">        
+          <a href="https://github.com">
+            <div class="informacoes">
+              <h6 class="card-subtitle">HTML5 | CSS | Bootstrap</h6>
+              <p class="card-text">
+                  Modelo de site de faculdade, onde possui 3 paginas, sendo elas, home, sobre e contato.
+              </p>
+            </div>
+            <h3>UNES</h3>
+          </a>
+        </div>
+
+        <div class="projeto">        
+          <a href="https://github.com">
+            <div class="informacoes">
+              <h6 class="card-subtitle">HTML5 | CSS | Bootstrap</h6>
+              <p class="card-text">
+                  Modelo de site de faculdade, onde possui 3 paginas, sendo elas, home, sobre e contato.
+              </p>
+            </div>
+            <h3>UNES</h3>
+          </a>
+        </div>
+
+        <div class="projeto">        
+          <a href="https://github.com">
+            <div class="informacoes">
+              <h6 class="card-subtitle">HTML5 | CSS | Bootstrap</h6>
+              <p class="card-text">
+                  Modelo de site de faculdade, onde possui 3 paginas, sendo elas, home, sobre e contato.
+              </p>
+            </div>
+            <h3>UNES</h3>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="#" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" class="outer-shadow"><i class="fab fa-github"></i></a>
+        <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
