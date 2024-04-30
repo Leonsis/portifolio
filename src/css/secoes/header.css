@@ -1,6 +1,9 @@
 .header {
-    padding: 30px 15px;
+    padding: 20px 15px;
     border-bottom: 1px solid var(--cor-primaria);
+    position: sticky;
+    top: 1px;
+    background-color: var(--cor-fundo-preto-escuro);
 }
 
 .header .logo {
@@ -127,8 +130,9 @@
 
    .header nav ul {
         display: none;        
-        background-color: var(--cor-fundo-escuro);         
-        padding: 20px;       
+        background-color: var(--cor-fundo-preto-escuro);         
+        padding: 20px;
+        border: 1px solid var(--cor-primaria); 
     }
     
     .header nav li a {
