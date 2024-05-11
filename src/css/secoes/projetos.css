@@ -19,8 +19,39 @@
     margin-bottom: 5px;
 }
 
-.projetos .container-projetos .projeto a.git{
-    margin: 0 auto;
+.projetos .container-projetos .git {
+    text-align: center;
+}
+
+.projetos .container-projetos .git a{
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    font-size: 1.8rem;
+    padding-left: 5px;
+    color: var(--cor-branca);
+    border-radius: 30px 30px ;
+    transition: all 0.3s ease;
+    border: 1px solid var(--cor-branca);
+}
+
+.projetos .container-projetos .git a i{
+    line-height: 40px;
+}
+
+.projetos .container-projetos .git a i span{
+    font-family: var(--fonte-primaria);
+    margin-left: 5px;
+}
+
+.projetos .container-projetos .git a:hover,
+.projetos .container-projetos .git a i:hover{
+    color: var(--cor-primaria);
+}
+
+
+.projetos .container-projetos .git a:hover {
+    border: 1px solid var(--cor-primaria);
 }
 
 .projetos .container-projetos .projeto .informacoes {
